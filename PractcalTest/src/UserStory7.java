@@ -51,7 +51,11 @@ public class UserStory7 {
 	     System.out.println(salary_figure); 
    	  if(salary_figure.isDisplayed() == true)
    	  {
-   		  System.out.println("Salary Figure is Perfectly Visible");
+   		  System.out.println("Salary Figure is  Visible");
+   	  }
+   	  else
+   	  {
+   		System.out.println("Salary Figure is not Visible");  
    	  }
 		
 	}
